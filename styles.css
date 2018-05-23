@@ -1,12 +1,41 @@
-/*Grids*/
-
-.headerGrid{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+/*Overall styling*/
+body{
+	font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+	font-size: 12vw;
 
-/*Reused classes*/
-.textCenter{
-	text-align: center;
+}
+
+.imgCenter{
+	margin: auto;
+}
+
+/*ViewPort Queries*/
+
+@media(min-width:900px){
+	/*Grids*/
+	.headerGrid{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+
+
+	/*Reused classes*/
+	.textCenter{
+		text-align: center;
+	}
+
+	#headerName{
+		margin-top: 0px;
+	}
+}
+
+@media(){
+
+}
+
+@media(){
+
 }
