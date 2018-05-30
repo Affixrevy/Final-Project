@@ -31,17 +31,30 @@ a:hover{
 }
 
 .textOne{
-    margin: 10px;
+  margin: 10px;
 }
 
 .txtBox{
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
+
+.navbar ul{
+ background-color: #969696;  
+
+}
+
 
 .navBar li{
   list-style-type: none;
   display: inline;
+  margin-right: 20px;
 }
+
+.navBar a:active{
+  background-color:#4fd0ff;
+}
+
+
 
 .drpButton{
   background-color: #969696;
@@ -72,14 +85,14 @@ a:hover{
     display: block;
 }
 
-.drpContent a:hover {background-color: #ddd}
+.drpContent a:hover {background-color: lightcoral}
 
 .drpMenu:hover .drpContent {
     display: block;
 }
 
 .drpMenu:hover .drpButton {
-    background-color: #3e8e41;
+    background-color: coral;
 }
 /*Slideshow Code*/
 
