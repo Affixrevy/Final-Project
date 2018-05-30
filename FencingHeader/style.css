@@ -1,0 +1,10 @@
+.container{
+	width: 80%;
+	background-color: #3f3f3f;
+	margin: auto;
+}
+
+.headerGrid{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
