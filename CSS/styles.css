@@ -1,0 +1,91 @@
+/*Overall styling*/
+body{
+	font-family: 'Montserrat', sans-serif;
+  color: #4f4f4f;
+}
+
+h2{
+  text-align: center;
+}
+
+a{
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+a:hover{
+  color: coral;
+}
+
+
+
+
+
+.footer{
+  background-color: #606060;
+  color: #ffe2e2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-row: 30px;
+}
+
+#rightText{
+  margin-left: 10px;
+}
+
+/*ViewPort Queries*/
+
+@media(min-width:900px){
+	/*Grids*/
+
+	/*Reused classes*/
+	.textCenter{
+		font-size: 120px;
+		text-align: center;
+    margin-top: 10px;
+	}
+
+	.container{
+	width: 80%;
+	margin: auto;
+  background-color: #d1d1d1;
+	}
+
+.headerGrid{
+    background-color: #4f4f4f;
+    margin-bottom: 0px;
+    color: #d1d1d1;
+  }
+
+	#headerName{
+		margin-top: 0px;
+	}
+}
+
+@media(min-width: 600px){
+	.textCenter{
+		font-size: 50px;
+		text-align: center;
+	}
+	.headerGrid{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+  .textOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .container{
+    width: 100%
+    background-color:#d1d1d1;
+  }
+}
+
+@media(min-width: 300px){
+	.textCenter{
+		font-size: 30px;
+		text-align: center;
+	}
+
+}
