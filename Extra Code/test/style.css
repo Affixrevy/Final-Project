@@ -1,0 +1,28 @@
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"title title title nav"
+	"main main logo nav"
+	"main main footer footer";
+}
+#title{
+	grid-area: title;
+	background-color: red;
+}
+#nav{
+	grid-area: nav;
+	background-color: green;
+}
+#main{
+	grid-area: main;
+	background-color: blue;
+}
+#logo{
+	grid-area: logo;
+	background-color: purple;
+}
+#footer{
+	grid-area: footer;
+	background-color: yellow;
+}
