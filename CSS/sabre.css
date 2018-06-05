@@ -1,12 +1,25 @@
-.sPhoto{
-	display: block;
-	width: 90%;
-	margin: auto;
+.sabGrid1{
+	max-height: 40vh;
 }
 
+.sPhoto{
+	display: block;
+	width: 100%;
+	max-height: 40vh;
+	margin: auto;
+}
+#sbodyText{
+	margin: 1em;
+}
+h3{
+	text-align: center;
+}
+h2{
+	margin-top: 2em;
+	font-size: 40px;;
+}
 
-
-@media (min-width: 700px){}
+@media (min-width: 700px){
 	.sabGrid1{
 		display: grid;
 		grid-template-columns: 1fr 1fr;

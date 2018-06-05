@@ -16,7 +16,10 @@ a{
 a:hover{
 	color: coral;
 }
-
+.indCenter{
+	display: block;
+	margin: auto;
+}
 .footer{
 	background-color: #606060;
 	color: #ffe2e2;
@@ -73,9 +76,10 @@ a:hover{
 		grid-gap: 20px;
 	}
 	.container{
-		width: 100%
+		width: 100%;
 		background-color:#4f4f4f;
 		box-shadow: 10px 20px 20px #888888
+	}
 }
 
 @media(min-width: 300px){
@@ -83,5 +87,4 @@ a:hover{
 		font-size: 30px;
 		text-align: center;
 	}
-
 }
