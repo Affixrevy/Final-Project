@@ -4,16 +4,17 @@
 }
 
 .imgCenter{
+  display: block;
 	width: 100%;
 	margin: auto;
 	max-width: 100px;
 }
-.picDivOne{
+/*.picDivOne{
   display: block;
 	width: 50%;
 	margin: auto;
   margin-top: 10px;
-}
+}*/
 
 .textOne{
   margin: 10px;
