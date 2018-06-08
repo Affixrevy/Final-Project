@@ -32,13 +32,6 @@ a:hover{
 	margin-left: 10px;
 }
 
-@media (min-width: 700px){
-	.container{
-		width: 80%;
-		margin: auto;
-		background-color: #4f4f4f;
-	}
-}
 
 /*ViewPort Queries*/
 
