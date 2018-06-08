@@ -1,0 +1,57 @@
+/* Universal Styles */
+body{ /*Set Fonts and body Color*/
+	font-family: 'Montserrat', sans-serif;
+	color: #d1d1d1;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{/*Set header text align center*/
+	text-align: center;
+}
+
+a{ /*Set color of links to #d1d1d1*/
+	color: #d1d1d1;
+	text-decoration: none;
+}
+
+a:hover{ /*Set color of links when hovered to coral*/
+	color: #ff7f50;
+}
+
+/*Viewport Queries*/
+@media(min-width:900px){
+    .headerGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 600px){
+	.container{
+        width: 80%;
+        margin: auto;
+        background-color: #606060;
+    }
+}
+
+@media(min-width: 300px){
+	
+}
+
+/*Footer Styling*/
+.footer{
+	background-color: #606060;
+	color: #ffe2e2;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-row: 30px;
+}
+
+#rightText{
+	margin-left: 10px;
+}
+
+
