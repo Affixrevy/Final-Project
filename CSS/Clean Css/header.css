@@ -3,6 +3,15 @@
     color: #292929;
 }
 
+.headerGrid{
+    background-color: #d1d1d1;
+}
+
+.headerGrid h1{
+    color: #292929;
+    margin-bottom: 0px;
+}
+
 .imgCenter{
     display: block;
 	width: 100%;

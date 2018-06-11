@@ -38,7 +38,9 @@ a:hover{ /*Set color of links when hovered to coral*/
 }
 
 @media(min-width: 300px){
-	
+	.container{
+        background-color: #606060;
+    }
 }
 
 /*Footer Styling*/

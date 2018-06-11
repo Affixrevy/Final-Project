@@ -1,0 +1,17 @@
+@media(min-width: 600px){
+    .infoGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+}
+
+.infoGrid{
+    width: 95%;
+    margin: auto;
+}
+
+.piste{
+    width: 30vw;
+}
+
