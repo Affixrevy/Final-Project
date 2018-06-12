@@ -45,8 +45,8 @@ a:hover{ /*Set color of links when hovered to coral*/
 
 /*Footer Styling*/
 .footer{
-	background-color: #606060;
-	color: #ffe2e2;
+	background-color: #969696;
+	color: #616161;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-row: 30px;
