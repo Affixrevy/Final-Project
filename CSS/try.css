@@ -1,3 +1,8 @@
+h2{
+    font-size: 3rem;
+    color: #fff;
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -19,7 +24,7 @@ input[type=submit], select {
 }
 
 input[type=submit]:hover {
-    background-color: #a0a0a0;
+    background-color: #ff7f50;
 }
 
 .form {
