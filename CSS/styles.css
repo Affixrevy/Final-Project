@@ -28,6 +28,11 @@ a:hover{
 	grid-row: 30px;
 }
 
+.youtube{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #rightText{
 	margin-left: 10px;
 }
