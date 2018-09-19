@@ -1,9 +1,0 @@
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 1em;
-}
-
-#tallText{
-    grid-row: 1/3;
-}

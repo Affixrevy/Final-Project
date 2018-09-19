@@ -1,1 +1,0 @@
-This is Arthur Gao's Computer Sciences 10 Final Project
